@@ -39,7 +39,7 @@ The short-term objectives are the following:
 
 # Download
 
-The project is hosted at SourceForge.net and can be directly accessed 
+The project is hosted at SourceForge.net and can be directly accessed
 from there: <http://maildispatcher.sf.net>
 
 # Requirements
@@ -56,23 +56,19 @@ There are various way to install Mail Dispatcher:
 
 ## Installation from repository
 
-You can checkout project from SourceForge.net CVS:
+You can checkout project from SourceForge.net Mercurial:
+    hg clone http://hg.code.sf.net/p/maildispatcher/maildispatcher
+    cd maildispatcher
 
-    cvs -d:pserver:anonymous@maildispatcher.cvs.sourceforge.net:/cvsroot/maildispatcher login 
-
-When prompted for a password for anonymous, simply press the Enter key. 
-
-    cvs -z3 -d:pserver:anonymous@maildispatcher.cvs.sourceforge.net:/cvsroot/maildispatcher co -P maildispatcher
- 
 After you checked out sources you can immediately run Mail Dispatcher:
 
-    ./maildispatcher/bin/maildispatcher 
+    ./maildispatcher/bin/maildispatcher
 
 Or install it:
 
     cd maildispatcher
     sudo python setup.py install
-    
+
 or
 
     cd maildispatcher
@@ -114,7 +110,7 @@ or
 
     su -c"rpm -ivh maildispatcher-x.x-x.noarch.rpm"
 
-After installation Mail Dispatcher will be available in menu "Accessories" 
+After installation Mail Dispatcher will be available in menu "Accessories"
 or as 'maildispatcher' command.
 
 ## Installation from DEB package
