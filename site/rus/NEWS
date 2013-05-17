@@ -1,0 +1,72 @@
+<h1>новости</h1>
+
+<h3>08/21/2008 - Выпущена версия 0.3. </h3>
+<p>В новой версии Диспетчера Писем добавлено много важных улучшений, в основном связанные с интернационализацией и облегчением использования данного продукта.</p>
+<p>Был добавлен разбор почтовых сообщений и сейчас они показываются в нужной кодировке. Также пользователь может выбрать предпочтительный формат просмотра сообщений.</p>
+<p>Был добавлен выбор интервала дат, и сейчас пользователь может выбрать сообщения из нужного ему интервала. Диспетчер Писем использует специальный алгоритм для выбора сообщения, который основан на бинарном поиске.</p>
+<h2>CHANGELOG</h2>
+Functionality:
+<ul>
+<li>Added binary searching of messages in date interval.</li>
+<li>Add getting date of messages.</li>
+</ul>
+I18n:
+<ul>
+<li>Translated all strings to Russian.</li>
+<li>Added ability to read charset from email message.</li>
+<li>Add using encoding model for opening msgs.</li>
+<li>Add support for custom encoding.</li>
+</ul>
+Installer:
+<ul>
+<li>Add checking for fuzzy strings.</li>
+</ul>
+Bugfixing:
+<ul>
+<li>Fixed most pylint warnings.</li>
+<li>Change get "Application Data" dir using ctypes.</li>
+<li>Fixed working with empty timestamp.</li>
+<li>Fix bugs with unicode path to glade file.</li>
+<li>Add processing headers as encoded strings.</li>
+<li>Fix range to cell renderer.</li>
+<li>Changed all platform dependent imports to '__import__'.</li>
+<li>Fixed date toggle buttons handlers.</li>
+</ul>
+
+
+<h3>11/23/2007 - Выпущена версия 0.2.</h3>
+<p>В новой версии Диспетчера Писем добавлено много важных улучшений, в основном направленных на облегчение использование данного продукта. </p>
+<p>Были добавлены инсталляционные пакеты для всех главных платформ: для версий Линукса основанных на RPM и DEB пакетах и для Windows OS.</p>
+<p>Была добавлена поддержка интернационализации. Теперь Диспетчер писем поддерживает английскую и русскую локали. Все сообщения и графические элементы были переведены на русский язык.</p>
+<h2>CHANGELOG</h2>
+Installers:
+<ul>
+<li>Fix setup.py to use distutils.</li>
+<li>Create windows package distribution.</li>
+<li>Add NSIS script.</li>
+<li>Fix setup.cfg error in WinOS.</li>
+<li>Add script for creating packages.</li>
+<li>Add py2exe support.</li>
+<li>Add desktop file.</li>
+<li>Fix setup.py to build rpm.</li>
+<li>Reorganize files.</li>
+</ul>
+I18n:
+<ul>
+<li>Fix translation.</li>
+<li>Fix app texts.</li>
+<li>Fix win32 gettext issue.</li>
+<li>Fix all russian texts.</li>
+<li>Fix localization issue with filters.</li>
+<li>Fix all required string to be localizabled.</li>
+</ul>
+Bugfixing:
+<ul>
+<li>Fix multithreading issues for Windows.</li>
+<li>Add idle function decorator.</li>
+<li>Fix substring search.</li>
+<li>Fix error in deleting messages.</li>
+</ul>
+<h3>01.11.2007 - Первый релиз.</h3>
+<p>Проект был создан на SF.NET и была выпущена версия 0.1 (в виде архива с исходным кодом).</p>
+

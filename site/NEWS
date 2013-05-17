@@ -1,0 +1,71 @@
+<h1>news</h1>
+
+<h3>08/21/2008 - Mail Dispatcher version 0.3 released. </h3>
+<p>New release of Mail Dispatcher introduces major changes in internationalization and usability of the product.</p>
+<p>Parsing mail messages was added and now they are shown in required encoding. Also a user can select preferred encoding for messages preview.</p>
+<p>Selecting dates ranges was added and now a user can select required date interval for downloaded messages. Mail Dispatcher uses special algoritm for selecting messages based on binary searching.</p>
+<h2>CHANGELOG</h2>
+Functionality:
+<ul>
+<li>Added binary searching of messages in date interval.</li>
+<li>Add getting date of messages.</li>
+</ul>
+I18n:
+<ul>
+<li>Translated all strings to Russian.</li>
+<li>Added ability to read charset from email message.</li>
+<li>Add using encoding model for opening msgs.</li>
+<li>Add support for custom encoding.</li>
+</ul>
+Installer:
+<ul>
+<li>Add checking for fuzzy strings.</li>
+</ul>
+Bugfixing:
+<ul>
+<li>Fixed most pylint warnings.</li>
+<li>Change get "Application Data" dir using ctypes.</li>
+<li>Fixed working with empty timestamp.</li>
+<li>Fix bugs with unicode path to glade file.</li>
+<li>Add processing headers as encoded strings.</li>
+<li>Fix range to cell renderer.</li>
+<li>Changed all platform dependent imports to '__import__'.</li>
+<li>Fixed date toggle buttons handlers.</li>
+</ul>
+
+<h3>11/23/2007 - Mail Dispatcher version 0.2 released. </h3>
+<p>New release of Mail Dispatcher introduces many major changes basically aimed to increase usability of the product. </p>
+<p>Installation packages for all major platforms were created: for RPM and DEB-based Linux OS and for Windows OS.</p>
+<p>Internationalization support was added. Now Mail Dispatcher supports English and Russian locales. All messages and GUI elements were translated to Russian.</p>
+<h2>CHANGELOG</h2>
+Installers:
+<ul>
+<li>Fix setup.py to use distutils.</li>
+<li>Create windows package distribution.</li>
+<li>Add NSIS script.</li>
+<li>Fix setup.cfg error in WinOS.</li>
+<li>Add script for creating packages.</li>
+<li>Add py2exe support.</li>
+<li>Add desktop file.</li>
+<li>Fix setup.py to build rpm.</li>
+<li>Reorganize files.</li>
+</ul>
+I18n:
+<ul>
+<li>Fix translation.</li>
+<li>Fix app texts.</li>
+<li>Fix win32 gettext issue.</li>
+<li>Fix all russian texts.</li>
+<li>Fix localization issue with filters.</li>
+<li>Fix all required string to be localizabled.</li>
+</ul>
+Bugfixing:
+<ul>
+<li>Fix multithreading issues for Windows.</li>
+<li>Add idle function decorator.</li>
+<li>Fix substring search.</li>
+<li>Fix error in deleting messages.</li>
+</ul>
+        <h3>11/01/2007 - Initial release. </h3>
+        <p>The project was created on SF.NET and 0.1 version of software was uploaded (in source tarball).</p>
+

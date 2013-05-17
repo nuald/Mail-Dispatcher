@@ -1,0 +1,36 @@
+<!--#include virtual="TITLE" -->
+<body>
+  <div id="main">
+    <div id="links">
+      <a href="../history.shtml">ENG</a> | <a href="history.shtml">RUS</a>
+    </div>
+    <!--#include virtual="HEADER" -->
+    <div id="menu">
+      <ul>
+        <li><a href="index.shtml">главная</a></li>
+        <li><a id="selected" href="#">новости</a></li>
+      </ul>
+    </div>
+    <div id="content">
+      <div id="column1">
+        <div class="sidebaritem">
+	  <!--#include virtual="LATEST" -->
+        </div>
+        <div class="sidebaritem">
+	  <!--#include virtual="DOWNLOAD" -->
+        </div>
+        <div class="sidebaritem">
+	  <!--#include virtual="../LICENSE" -->
+        </div>
+        <div class="right">
+	  <!--#include virtual="../ICONS" -->
+        </div>
+      </div>
+      <div id="column2">
+	<!--#include virtual="NEWS" -->
+      </div>
+    </div>
+    <!--#include virtual="../FOOTER" -->
+  </div>
+</body>
+</html>

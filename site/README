@@ -1,0 +1,56 @@
+<h1>what is mail dispatcher?</h1>
+<span class="right"><a href="style/engscreen.gif">
+<img src="style/engsmall.gif" alt="MailDispatcher preview" /></a></span>
+<p>Mail Dispather is a tool for dispatching (basically, deleting) email messages on 
+POP3 server via Plain or SSL connection with advanced filtering capabilities. 
+It is distributed under GPL3 and above license. Written in Python with using PyGtk. 
+</p>
+<p>ATTENTION! Due to certail problems with py2exe Windows setup package is
+temporarily unavailable and only source package could be used. To start program in Windows use command:
+"python bin/maildispatcher" in the directory of the application after extracting it from sources.</p>
+<h2>Why do I need Mail Dispatcher?</h2><br/>
+Mail Dispatcher could be useful for a user:
+<ul>
+	<li>Who works with the same mailbox at home and in the office and stores all messages on server or</li>
+	<li>Who has slow or unstable connection to the Internet (like via dial-up, GPRS modems) 
+	and doesn't not want to download any unwanted messages.</li>
+</ul>
+<br/>
+  For making the task of dispatching messages easier Mail Dispatcher provides basic filtering capabilities. 
+  It supports two kinds of filters:  
+<ol>
+	<li><strong>Deletion filters.</strong> 
+	When applying these filters Mail Dispatcher marks all applicable messages as "for deletion".
+	</li>
+	<li><strong>Storing filters.</strong>
+	When applying these filters Mail Dispatcher hides all applicable messages 
+	from the list of available not to delete them unintentionally.
+	</li>
+</ol>
+These filters are applied automatically during refreshing the list of messages from server. 
+If some messages were marked for deletion Mail Dispatcher warns a user about deleting messages from server. 
+<h1>what can mail dispatcher do?</h1>
+<ul>
+  <li>Supports Plain and SSL connections.</li>
+  <li>Previews messages.</li>
+  <li>Allows filtering (deletion and storing filters).</li>
+  <li>Allows sorting by various criteria (from, to, size, subject).</li>
+  <li>Stores settings between sessions.</li>
+</ul>
+<h1>mail dispatcher in prospects</h1>
+<p>The main purpose of the project is increasing competitive ability of open source email clients for Linux and other OS users. 
+Mail Dispatcher now is only a pilot project, and it will be used as the basis
+for creating extensions to Thunderbird, Evolution and other open source email clients. 
+Many users use proprietary email clients (like TheBat!) only because they have such useful 
+features like dispatching mail on the server.
+</p>
+	<p>However, Mail Dispatcher can be useful for some users not only as an extension, but also as independent program. So we will not stop 
+	it's development and we will work on Mail Dispatcher and email clients' extensions simultaneously within the project.</p>
+	The short-term objectives are the following:
+	<ul>
+		<li>Create packages for all basic platforms (Linux, Windows, MacOSX).</li>
+		<li>Add support for several accounts.</li>
+		<li>Use spam filters like SpamAssasin.</li>
+		<li>Add support for various secure storages (GNOME Keyring, KWallet, Apple Keychain and KeePass).</li>
+	</ul>
+
