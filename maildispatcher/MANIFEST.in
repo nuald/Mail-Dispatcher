@@ -1,0 +1,4 @@
+include share/maildispatcher/glade/maildispatcher.glade
+include bin/maildispatcher
+include maildispatcher.desktop
+recursive-include share/maildispatcher/i18n *

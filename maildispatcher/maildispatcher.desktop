@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Mail Dispatcher
+Name[ru]=Диспетчер писем
+Comment=A tool for dispatching (basically, deleting) email messages on POP3 server via Plain or SSL connection with advanced filtering capabilities.
+Comment[ru]=Инструмент для управления почтой
+Exec=maildispatcher
+Terminal=false
+Type=Application
+StartupNotify=false
+Categories=GNOME;GTK;Utility

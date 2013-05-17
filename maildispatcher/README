@@ -1,0 +1,153 @@
+# What is Mail Dispatcher?
+
+Mail Dispather is a tool for dispatching (basically, deleting) email messages on POP3 server via Plain or SSL connection with advanced filtering capabilities. It is distributed under GPL3 and above license. Written in Python with using PyGtk.
+
+# Why do I need Mail Dispatcher?
+
+Mail Dispatcher could be useful for a user:
+
+* Who works with the same mailbox at home and in the office and stores all messages on server or
+* Who has slow or unstable connection to the Internet (like via dial-up, GPRS modems) and doesn't not want to download any unwanted messages.
+
+
+For making the task of dispatching messages easier Mail Dispatcher provides basic filtering capabilities. It supports two kinds of filters:
+
+1. Deletion filters. When applying these filters Mail Dispatcher marks all applicable messages as "for deletion".
+2. Storing filters. When applying these filters Mail Dispatcher hides all applicable messages from the list of available not to delete them unintentionally.
+
+These filters are applied automatically during refreshing the list of messages from server. If some messages were marked for deletion Mail Dispatcher warns a user about deleting messages from server.
+what can mail dispatcher do?
+
+* Supports Plain and SSL connections.
+* Previews messages.
+* Allows filtering (deletion and storing filters).
+* Allows sorting by various criteria (from, to, size, subject).
+* Stores settings between sessions.
+
+# Mail Dispatcher in prospects
+
+The main purpose of the project is increasing competitive ability of open source email clients for Linux and other OS users. Mail Dispatcher now is only a pilot project, and it will be used as the basis for creating extensions to Thunderbird, Evolution and other open source email clients. Many users use proprietary email clients (like TheBat!) only because they have such useful features like dispatching mail on the server.
+
+However, Mail Dispatcher can be useful for some users not only as an extension, but also as independent program. So we will not stop it's development and we will work on Mail Dispatcher and email clients' extensions simultaneously within the project.
+The short-term objectives are the following:
+
+* Create packages for all basic platforms (Linux, Windows, MacOSX).
+* Add support for several accounts.
+* Use spam filters like SpamAssasin.
+* Add support for various secure storages (GNOME Keyring, KWallet, Apple Keychain and KeePass).
+* Add support for various encodings (russian, japanese, chinese etc).
+
+# Download
+
+The project is hosted at SourceForge.net and can be directly accessed 
+from there: <http://maildispatcher.sf.net>
+
+# Requirements
+
+Required Python 2.5 and PyGtk 2 or upper.
+
+# Installation
+
+There are various way to install Mail Dispatcher:
+* From sources (for all platforms)
+* As RPM package (for RedHat-based OS: RHEL, Fedora, Mandriva)
+* As DEB package (for Debian-based OS: ArchLinux, Ubuntu, Kubuntu)
+* As EXE installer (for Windows OS)
+
+## Installation from repository
+
+You can checkout project from SourceForge.net CVS:
+
+    cvs -d:pserver:anonymous@maildispatcher.cvs.sourceforge.net:/cvsroot/maildispatcher login 
+
+When prompted for a password for anonymous, simply press the Enter key. 
+
+    cvs -z3 -d:pserver:anonymous@maildispatcher.cvs.sourceforge.net:/cvsroot/maildispatcher co -P maildispatcher
+ 
+After you checked out sources you can immediately run Mail Dispatcher:
+
+    ./maildispatcher/bin/maildispatcher 
+
+Or install it:
+
+    cd maildispatcher
+    sudo python setup.py install
+    
+or
+
+    cd maildispatcher
+    su -c"python setup.py install"
+
+After installation Mail Dispatcher will be available in menu "Accessories"
+or as 'maildispatcher' command.
+
+## Installation from source tarball
+
+Download tarball and extract it to some directory:
+
+    tar zvxf maildispatcher-x.x.tar.gz
+
+After you extracted sources you can immediately run Mail Dispatcher:
+
+    ./maildispatcher-x.x/bin/maildispatcher
+
+Or install it:
+
+    cd maildispatcher-x.x
+    sudo python setup.py install
+
+or
+
+    cd maildispatcher-x.x
+    su -c"python setup.py install"
+
+After installation Mail Dispatcher will be available in menu "Accessories"
+or as 'maildispatcher' command.
+
+## Istallation from RPM package
+
+Download RPM package and install it:
+
+    sudo rpm -ivh maildispatcher-x.x-x.noarch.rpm
+
+or
+
+    su -c"rpm -ivh maildispatcher-x.x-x.noarch.rpm"
+
+After installation Mail Dispatcher will be available in menu "Accessories" 
+or as 'maildispatcher' command.
+
+## Installation from DEB package
+
+Download DEB package and install it:
+
+    sudo dpkg -i maildispatcher_x.x-x_add.deb
+
+After installation Mail Dispatcher will be available in menu "Accessories"
+or as 'maildispatcher' command.
+
+## Installation from EXE installer
+
+Installer contains prepackages Python and PyGtk and do not required additional
+software. Start as usual program and follow step by step instructions.
+
+After installation Mail Dispatcher will be available as shortcut on desktop and
+Program folders.
+
+# Usage
+
+Fill connection settings - server, user name and password. 
+Some servers (like pop.gmail.com) requires SSL connection, so you can choose
+connection type in related field.
+
+After setting up connection press Refresh button. If connection could not be
+established Mail Dispatcher shows error dialog.
+
+After getting all available headers from the server you can select some of email 
+messages for deletion. During next refreshing these messages will be deleted.
+You can select all or clear all deletion flags using corresponding buttons. Also you can preview messages using Open button.
+
+Also you can use filters to select groups of messages for deletion or hiding.
+You can specify text for "From", "To" or "Subject" field, and if header satisfy
+the text related message will be marked for deletion (for Deletion filter) or
+hidden from the headers list (for Storing filter).

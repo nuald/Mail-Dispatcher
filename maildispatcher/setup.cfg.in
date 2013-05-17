@@ -1,0 +1,17 @@
+[install]
+install_lib=/usr/local/share/maildispatcher/lib
+install_data=/usr/local/share
+install_scripts=/usr/local/bin
+optimize=1
+
+[bdist_rpm]
+release = 1
+packager = Alex Slesarev <nuald@users.sourceforge.net>
+doc_files = README
+provides = maildispatcher
+requires = python >= 2.5 
+	   pygtk2
+	   gnome-python2-gnomekeyring
+distribution_name = Fedora 7
+
+

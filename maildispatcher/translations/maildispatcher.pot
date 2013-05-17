@@ -1,0 +1,470 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-08-21 13:35+1100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: share/maildispatcher/lib/maildispatcher/appsecuresettings.py:33
+msgid "Secure storage manager initialization error"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/appsettings.py:78
+msgid "Settings loading error"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:26
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:29
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:31
+msgid "English"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:27
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:28
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:53
+msgid "Traditional Chinese"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:30
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:39
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:43
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:63
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:96
+msgid "Hebrew"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:32
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:35
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:56
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:60
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:88
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:101
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:110
+msgid "Western Europe"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:33
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:48
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:50
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:61
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:95
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:107
+msgid "Greek"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:34
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:65
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:99
+msgid "Baltic languages"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:36
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:57
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:89
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:109
+msgid "Central and Eastern Europe"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:38
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:59
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:93
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:106
+msgid "Bulgarian, Byelorussian, Macedonian, Russian, Serbian"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:40
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:55
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:62
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:97
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:111
+msgid "Turkish"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:41
+msgid "Portuguese"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:42
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:108
+msgid "Icelandic"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:44
+msgid "Canadian"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:45
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:64
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:94
+msgid "Arabic"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:46
+msgid "Danish, Norwegian"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:47
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:103
+msgid "Russian"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:49
+msgid "Thai"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:51
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:67
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:68
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:69
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:79
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:80
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:83
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:84
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:85
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:113
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:114
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:115
+msgid "Japanese"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:52
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:72
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:86
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:102
+msgid "Korean"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:54
+msgid "Urdu"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:66
+msgid "Vietnamese"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:75
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:78
+msgid "Simplified Chinese"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:76
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:77
+msgid "Unified Chinese"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:82
+msgid "Japanese, Korean, Simplified Chinese, Western Europe, Greek"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:90
+msgid "Esperanto, Maltese"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:91
+msgid "Baltic languagues"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:98
+msgid "Nordic languages"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:100
+msgid "Celtic languages"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:104
+msgid "Ukrainian"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:112
+msgid "Kazakh"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:116
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:119
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:120
+msgid "All languages"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:117
+#: share/maildispatcher/lib/maildispatcher/encodingmodel.py:118
+msgid "All languages (BMP only)"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/filterview.py:30
+msgid "Field"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/filterview.py:31
+msgid "Text"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/gladebase.py:47
+#, python-format
+msgid "Can't find widget %(name)s in %(pathname)s.\n"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/gnomekeyringmgr.py:45
+msgid "Checking credentials error"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/headersmodel.py:144
+msgid "Getting email headers..."
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/headersmodel.py:150
+msgid "Downloading headers error"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/headersmodel.py:169
+msgid "Deleting email messages..."
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/headersmodel.py:175
+msgid "Deleting messages error"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/headersmodel.py:199
+msgid "Downloading error"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/headersmodel.py:380
+#: share/maildispatcher/lib/maildispatcher/headersview.py:44
+msgid "From"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/headersmodel.py:380
+#: share/maildispatcher/lib/maildispatcher/headersview.py:46
+msgid "To"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/headersmodel.py:380
+msgid "Subject"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/headersview.py:42
+msgid "Delete"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/headersview.py:48
+msgid "Date"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/headersview.py:50
+msgid "Size"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/headersview.py:52
+msgid "Subj"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/mainwindowcontroller.py:312
+msgid "Not defined"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/mainwindowcontroller.py:335
+#, python-format
+msgid ""
+"You proceed to delete %(_delete)d messages from %(_total)d total. Are you "
+"sure?"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/mainwindowcontroller.py:346
+msgid ""
+"An error occurred during server connection. Please check connection settings."
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/mainwindowcontroller.py:349
+#, python-format
+msgid "Error details: %s"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/mainwindowcontroller.py:439
+#, python-format
+msgid "Messages: %(total)d total, %(hidden)d hidden, %(deleted)d for deletion"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/mainwindowcontroller.py:472
+#: share/maildispatcher/glade/maildispatcher.glade.h:28
+msgid "Idle"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/popwrapper.py:43
+#, python-format
+msgid "Logged in as %(user)s@%(host)s"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/popwrapper.py:44
+#, python-format
+msgid "Status: %(_count)d message(s), %(_bytes)d bytes"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/popwrapper.py:67
+msgid "Closing POP3 session"
+msgstr ""
+
+#: share/maildispatcher/lib/maildispatcher/utils.py:46
+#, python-format
+msgid "Cannot find %(pathname)s on the Python path."
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:1
+msgid "110"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:2
+msgid "1999-01-01"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:3
+msgid "<b>Filters for Deletion</b>"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:4
+msgid "<b>Filters for Storing (hide messages)</b>"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:5
+msgid "<b>New filter</b>"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:6
+msgid ""
+"<span foreground='#FF0000'><b>Note: during refresh all messages marked for "
+"deletion will be DELETED!</b></span>"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:7
+msgid "Add new filter"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:8
+msgid "Apply filters"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:9
+msgid "Clear all messages"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:10
+msgid "Connection:"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:11
+msgid "Delete current filter"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:12
+msgid "Delete selected messages and show current messages on POP3 server"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:13
+msgid ""
+"Deletion\n"
+"Storing"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:15
+msgid "Download headers from:"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:16
+msgid "Edit current filter"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:17
+msgid "Encoding:"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:18
+msgid "Enter POP3 server name or IP-address"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:19
+msgid "Enter POP3 server port"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:20
+msgid "Enter account name on POP3 server"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:21
+msgid "Enter account password on POP3 server"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:22
+msgid "Enter text which will be filtered"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:23
+msgid "Field:"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:24
+msgid ""
+"From\n"
+"To\n"
+"Subject"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:27
+msgid "Host:"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:29
+msgid "Mail Dispatcher v0.3"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:30
+msgid "Open current message"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:31
+msgid "Password:"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:32
+msgid ""
+"Plain\n"
+"TLS\n"
+"SSL\n"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:36
+msgid "Port:"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:37
+msgid "Select all messages"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:38
+msgid "Set Current Date"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:39
+msgid "Text:"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:40
+msgid "Type:"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:41
+msgid "User:"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:42
+msgid "to:"
+msgstr ""
