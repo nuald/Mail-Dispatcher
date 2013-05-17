@@ -5,10 +5,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maildispatcher 0.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-08-21 13:35+1100\n"
+"POT-Creation-Date: 2013-05-17 16:31-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: utf-8\n"
@@ -282,7 +283,8 @@ msgstr "Вы уверены что хотите удалить %(_delete)d со�
 #: share/maildispatcher/lib/maildispatcher/mainwindowcontroller.py:346
 msgid ""
 "An error occurred during server connection. Please check connection settings."
-msgstr "Произошла ошибка соединения. Пожалуйста, проверьте настройки соединения."
+msgstr ""
+"Произошла ошибка соединения. Пожалуйста, проверьте настройки соединения."
 
 #: share/maildispatcher/lib/maildispatcher/mainwindowcontroller.py:349
 #, python-format
@@ -296,7 +298,7 @@ msgstr ""
 "Сообщения: %(total)d всего, %(hidden)d скрыто, %(deleted)d для удаления"
 
 #: share/maildispatcher/lib/maildispatcher/mainwindowcontroller.py:472
-#: share/maildispatcher/glade/maildispatcher.glade.h:28
+#: share/maildispatcher/glade/maildispatcher.glade.h:17
 msgid "Idle"
 msgstr "Ожидание"
 
@@ -320,59 +322,14 @@ msgid "Cannot find %(pathname)s on the Python path."
 msgstr "Невозможно найти %(pathname)s в пути для Python."
 
 #: share/maildispatcher/glade/maildispatcher.glade.h:1
-msgid "110"
-msgstr ""
+msgid "Mail Dispatcher v0.3"
+msgstr "Диспетчер Писем v0.3"
 
 #: share/maildispatcher/glade/maildispatcher.glade.h:2
-msgid "1999-01-01"
-msgstr ""
+msgid "Type:"
+msgstr "Тип:"
 
 #: share/maildispatcher/glade/maildispatcher.glade.h:3
-msgid "<b>Filters for Deletion</b>"
-msgstr "<b>Фильтры для удаления</b>"
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:4
-msgid "<b>Filters for Storing (hide messages)</b>"
-msgstr "<b>Фильтры для сохранения (скрывают письма)</b>"
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:5
-msgid "<b>New filter</b>"
-msgstr "<b>Новый фильтр</b>"
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:6
-msgid ""
-"<span foreground='#FF0000'><b>Note: during refresh all messages marked for "
-"deletion will be DELETED!</b></span>"
-msgstr ""
-"<span foreground='#FF0000'><b>Внимание: во время обновления все сообщения "
-"выбранные для удаления будут УДАЛЕНЫ!</b></span>"
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:7
-msgid "Add new filter"
-msgstr "Добавить новый фильтр"
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:8
-msgid "Apply filters"
-msgstr "Применить фильтры"
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:9
-msgid "Clear all messages"
-msgstr "Очистить все сообщения"
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:10
-msgid "Connection:"
-msgstr "Соединение:"
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:11
-msgid "Delete current filter"
-msgstr "Удалить текущий фильтр"
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:12
-msgid "Delete selected messages and show current messages on POP3 server"
-msgstr ""
-"Удалить выбранные сообщения и показать текущие сообщения на POP3 сервере"
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:13
 msgid ""
 "Deletion\n"
 "Storing"
@@ -380,43 +337,11 @@ msgstr ""
 "Удаление\n"
 "Сохранение"
 
-#: share/maildispatcher/glade/maildispatcher.glade.h:15
-msgid "Download headers from:"
-msgstr "Загружать заголовки с:"
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:16
-msgid "Edit current filter"
-msgstr "Редактировать текущий фильтр"
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:17
-msgid "Encoding:"
-msgstr "Кодировка:"
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:18
-msgid "Enter POP3 server name or IP-address"
-msgstr "Введите имя или IP-адрес POP3 сервера"
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:19
-msgid "Enter POP3 server port"
-msgstr "Введите порт POP3 сервера"
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:20
-msgid "Enter account name on POP3 server"
-msgstr "Введите имя пользователя на POP3 сервере"
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:21
-msgid "Enter account password on POP3 server"
-msgstr "Введите пароль пользователя на POP3 сервере"
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:22
-msgid "Enter text which will be filtered"
-msgstr "Введите текст для фильтрации"
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:23
+#: share/maildispatcher/glade/maildispatcher.glade.h:5
 msgid "Field:"
 msgstr "Поле:"
 
-#: share/maildispatcher/glade/maildispatcher.glade.h:24
+#: share/maildispatcher/glade/maildispatcher.glade.h:6
 msgid ""
 "From\n"
 "To\n"
@@ -426,23 +351,43 @@ msgstr ""
 "Кому\n"
 "Тема"
 
-#: share/maildispatcher/glade/maildispatcher.glade.h:27
-msgid "Host:"
-msgstr "Сервер:"
+#: share/maildispatcher/glade/maildispatcher.glade.h:9
+msgid "Text:"
+msgstr "Текст:"
 
-#: share/maildispatcher/glade/maildispatcher.glade.h:29
-msgid "Mail Dispatcher v0.3"
-msgstr "Диспетчер Писем v0.3"
+#: share/maildispatcher/glade/maildispatcher.glade.h:10
+msgid "Enter text which will be filtered"
+msgstr "Введите текст для фильтрации"
 
-#: share/maildispatcher/glade/maildispatcher.glade.h:30
-msgid "Open current message"
-msgstr "Открыть текущее сообщение"
+#: share/maildispatcher/glade/maildispatcher.glade.h:11
+msgid "Add new filter"
+msgstr "Добавить новый фильтр"
 
-#: share/maildispatcher/glade/maildispatcher.glade.h:31
+#: share/maildispatcher/glade/maildispatcher.glade.h:12
+msgid "<b>New filter</b>"
+msgstr "<b>Новый фильтр</b>"
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:13
+msgid "User:"
+msgstr "Пользователь:"
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:14
+msgid "Connection:"
+msgstr "Соединение:"
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:15
 msgid "Password:"
 msgstr "Пароль:"
 
-#: share/maildispatcher/glade/maildispatcher.glade.h:32
+#: share/maildispatcher/glade/maildispatcher.glade.h:16
+msgid "Port:"
+msgstr "Порт:"
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:18
+msgid "Host:"
+msgstr "Сервер:"
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:19
 msgid ""
 "Plain\n"
 "TLS\n"
@@ -452,33 +397,90 @@ msgstr ""
 "TLS\n"
 "SSL\n"
 
-#: share/maildispatcher/glade/maildispatcher.glade.h:36
-msgid "Port:"
-msgstr "Порт:"
+#: share/maildispatcher/glade/maildispatcher.glade.h:23
+msgid ""
+"<span foreground='#FF0000'><b>Note: during refresh all messages marked for "
+"deletion will be DELETED!</b></span>"
+msgstr ""
+"<span foreground='#FF0000'><b>Внимание: во время обновления все сообщения "
+"выбранные для удаления будут УДАЛЕНЫ!</b></span>"
 
-#: share/maildispatcher/glade/maildispatcher.glade.h:37
+#: share/maildispatcher/glade/maildispatcher.glade.h:24
+msgid "Download headers from:"
+msgstr "Загружать заголовки с:"
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:25
+msgid "1999-01-01"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:26
+msgid "to:"
+msgstr "по:"
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:27
+msgid "Delete selected messages and show current messages on POP3 server"
+msgstr ""
+"Удалить выбранные сообщения и показать текущие сообщения на POP3 сервере"
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:28
 msgid "Select all messages"
 msgstr "Выбрать все сообщения"
 
-#: share/maildispatcher/glade/maildispatcher.glade.h:38
-msgid "Set Current Date"
+#: share/maildispatcher/glade/maildispatcher.glade.h:29
+msgid "Clear all messages"
+msgstr "Очистить все сообщения"
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:30
+msgid "Open current message"
+msgstr "Открыть текущее сообщение"
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:31
+msgid "Apply filters"
+msgstr "Применить фильтры"
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:32
+msgid "Delete current filter"
 msgstr "Удалить текущий фильтр"
 
+#: share/maildispatcher/glade/maildispatcher.glade.h:33
+msgid "Edit current filter"
+msgstr "Редактировать текущий фильтр"
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:34
+msgid "<b>Filters for Deletion</b>"
+msgstr "<b>Фильтры для удаления</b>"
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:35
+msgid "<b>Filters for Storing (hide messages)</b>"
+msgstr "<b>Фильтры для сохранения (скрывают письма)</b>"
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:36
+msgid "Enter POP3 server name or IP-address"
+msgstr "Введите имя или IP-адрес POP3 сервера"
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:37
+msgid "Enter POP3 server port"
+msgstr "Введите порт POP3 сервера"
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:38
+msgid "110"
+msgstr ""
+
 #: share/maildispatcher/glade/maildispatcher.glade.h:39
-msgid "Text:"
-msgstr "Текст:"
+msgid "Enter account name on POP3 server"
+msgstr "Введите имя пользователя на POP3 сервере"
 
 #: share/maildispatcher/glade/maildispatcher.glade.h:40
-msgid "Type:"
-msgstr "Тип:"
+msgid "Enter account password on POP3 server"
+msgstr "Введите пароль пользователя на POP3 сервере"
 
 #: share/maildispatcher/glade/maildispatcher.glade.h:41
-msgid "User:"
-msgstr "Пользователь:"
+msgid "Encoding:"
+msgstr "Кодировка:"
 
 #: share/maildispatcher/glade/maildispatcher.glade.h:42
-msgid "to:"
-msgstr "по:"
+msgid "Set Current Date"
+msgstr "Удалить текущий фильтр"
 
 #~ msgid "Quit application"
 #~ msgstr "Выйти из приложения"

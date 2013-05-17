@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-08-21 13:35+1100\n"
+"POT-Creation-Date: 2013-05-17 16:33-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -296,7 +297,7 @@ msgid "Messages: %(total)d total, %(hidden)d hidden, %(deleted)d for deletion"
 msgstr ""
 
 #: share/maildispatcher/lib/maildispatcher/mainwindowcontroller.py:472
-#: share/maildispatcher/glade/maildispatcher.glade.h:28
+#: share/maildispatcher/glade/maildispatcher.glade.h:17
 msgid "Idle"
 msgstr ""
 
@@ -320,110 +321,101 @@ msgid "Cannot find %(pathname)s on the Python path."
 msgstr ""
 
 #: share/maildispatcher/glade/maildispatcher.glade.h:1
-msgid "110"
+msgid "Mail Dispatcher v0.3"
 msgstr ""
 
 #: share/maildispatcher/glade/maildispatcher.glade.h:2
-msgid "1999-01-01"
+msgid "Type:"
 msgstr ""
 
 #: share/maildispatcher/glade/maildispatcher.glade.h:3
-msgid "<b>Filters for Deletion</b>"
-msgstr ""
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:4
-msgid "<b>Filters for Storing (hide messages)</b>"
-msgstr ""
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:5
-msgid "<b>New filter</b>"
-msgstr ""
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:6
-msgid ""
-"<span foreground='#FF0000'><b>Note: during refresh all messages marked for "
-"deletion will be DELETED!</b></span>"
-msgstr ""
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:7
-msgid "Add new filter"
-msgstr ""
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:8
-msgid "Apply filters"
-msgstr ""
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:9
-msgid "Clear all messages"
-msgstr ""
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:10
-msgid "Connection:"
-msgstr ""
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:11
-msgid "Delete current filter"
-msgstr ""
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:12
-msgid "Delete selected messages and show current messages on POP3 server"
-msgstr ""
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:13
 msgid ""
 "Deletion\n"
 "Storing"
 msgstr ""
 
-#: share/maildispatcher/glade/maildispatcher.glade.h:15
-msgid "Download headers from:"
-msgstr ""
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:16
-msgid "Edit current filter"
-msgstr ""
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:17
-msgid "Encoding:"
-msgstr ""
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:18
-msgid "Enter POP3 server name or IP-address"
-msgstr ""
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:19
-msgid "Enter POP3 server port"
-msgstr ""
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:20
-msgid "Enter account name on POP3 server"
-msgstr ""
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:21
-msgid "Enter account password on POP3 server"
-msgstr ""
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:22
-msgid "Enter text which will be filtered"
-msgstr ""
-
-#: share/maildispatcher/glade/maildispatcher.glade.h:23
+#: share/maildispatcher/glade/maildispatcher.glade.h:5
 msgid "Field:"
 msgstr ""
 
-#: share/maildispatcher/glade/maildispatcher.glade.h:24
+#: share/maildispatcher/glade/maildispatcher.glade.h:6
 msgid ""
 "From\n"
 "To\n"
 "Subject"
 msgstr ""
 
-#: share/maildispatcher/glade/maildispatcher.glade.h:27
+#: share/maildispatcher/glade/maildispatcher.glade.h:9
+msgid "Text:"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:10
+msgid "Enter text which will be filtered"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:11
+msgid "Add new filter"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:12
+msgid "<b>New filter</b>"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:13
+msgid "User:"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:14
+msgid "Connection:"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:15
+msgid "Password:"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:16
+msgid "Port:"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:18
 msgid "Host:"
 msgstr ""
 
+#: share/maildispatcher/glade/maildispatcher.glade.h:19
+msgid ""
+"Plain\n"
+"TLS\n"
+"SSL\n"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:23
+msgid ""
+"<span foreground='#FF0000'><b>Note: during refresh all messages marked for "
+"deletion will be DELETED!</b></span>"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:24
+msgid "Download headers from:"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:25
+msgid "1999-01-01"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:26
+msgid "to:"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:27
+msgid "Delete selected messages and show current messages on POP3 server"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:28
+msgid "Select all messages"
+msgstr ""
+
 #: share/maildispatcher/glade/maildispatcher.glade.h:29
-msgid "Mail Dispatcher v0.3"
+msgid "Clear all messages"
 msgstr ""
 
 #: share/maildispatcher/glade/maildispatcher.glade.h:30
@@ -431,40 +423,49 @@ msgid "Open current message"
 msgstr ""
 
 #: share/maildispatcher/glade/maildispatcher.glade.h:31
-msgid "Password:"
+msgid "Apply filters"
 msgstr ""
 
 #: share/maildispatcher/glade/maildispatcher.glade.h:32
-msgid ""
-"Plain\n"
-"TLS\n"
-"SSL\n"
+msgid "Delete current filter"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:33
+msgid "Edit current filter"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:34
+msgid "<b>Filters for Deletion</b>"
+msgstr ""
+
+#: share/maildispatcher/glade/maildispatcher.glade.h:35
+msgid "<b>Filters for Storing (hide messages)</b>"
 msgstr ""
 
 #: share/maildispatcher/glade/maildispatcher.glade.h:36
-msgid "Port:"
+msgid "Enter POP3 server name or IP-address"
 msgstr ""
 
 #: share/maildispatcher/glade/maildispatcher.glade.h:37
-msgid "Select all messages"
+msgid "Enter POP3 server port"
 msgstr ""
 
 #: share/maildispatcher/glade/maildispatcher.glade.h:38
-msgid "Set Current Date"
+msgid "110"
 msgstr ""
 
 #: share/maildispatcher/glade/maildispatcher.glade.h:39
-msgid "Text:"
+msgid "Enter account name on POP3 server"
 msgstr ""
 
 #: share/maildispatcher/glade/maildispatcher.glade.h:40
-msgid "Type:"
+msgid "Enter account password on POP3 server"
 msgstr ""
 
 #: share/maildispatcher/glade/maildispatcher.glade.h:41
-msgid "User:"
+msgid "Encoding:"
 msgstr ""
 
 #: share/maildispatcher/glade/maildispatcher.glade.h:42
-msgid "to:"
+msgid "Set Current Date"
 msgstr ""
